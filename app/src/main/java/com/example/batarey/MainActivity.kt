@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
                 registerReceiver(myReceiver, intentFilter)
             }
-        //submit to firebase
+        //submit to firebase.
         submit.setOnClickListener{
             var name = PersonName.text.toString()
             var id = PersonID.text.toString()
